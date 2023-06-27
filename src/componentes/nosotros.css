@@ -1,0 +1,26 @@
+.nosotrosContainer{
+    width: 90%;
+    height: 100%;
+    color: #f8efed;
+    background-color: #00000081;
+    margin-top: 45px;
+    margin-left: 5%;
+    border-radius: 30px;
+    display: flex;
+}
+.nosotrosContainer img {
+    height: 550px;
+}
+.nosotrosContainer div {
+    text-align: center;
+    margin: auto;
+}
+.nosotrosContainer div h1 {
+    font-size: 80px;
+    font-family: 'Creepster', cursive;
+}
+.nosotrosContainer div p {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 40px;
+}

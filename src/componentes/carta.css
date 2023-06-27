@@ -1,0 +1,81 @@
+.cartaContainer {
+    display: flex;
+    color: #f8efed;
+    width: 100%;
+    height: auto;
+    margin-top: 45px;
+}
+.cartaContainer article {
+    width: 500px;
+    height: auto;
+    background-color: #00000081;
+    margin: 5px;
+    border-radius: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    align-items: center;
+    transition: all 0.2s;
+    opacity: 0.8;
+}
+.cartaContainer article:hover {
+    filter: contrast(120%);
+    opacity: 1;
+}
+.cartaContainer article img {
+    padding-top: 30px;
+    width: 280px;
+    border-radius: 20%;
+}
+.cartaContainer article ul {
+    list-style-type: none;
+    padding-top: 20px;
+}
+.cartaContainer article h2 {
+    font-family: 'Creepster', cursive;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.cartaContainer article ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+}
+.cartaContainer article h3 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+.cartaContainer article div {
+    display: flex;
+    padding-top: 20px;
+}
+.cartaContainer article div button {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    background: #00000081;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    color: #f8efed;
+    font-size: 20px;
+    transition: all 0.4s;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.cartaContainer article div button:hover {
+    background: #FF6707;
+}
+.cartaContainer article button {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    background: #00000081;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    color: #f8efed;
+    font-size: 20px;
+    transition: all 0.4s;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.cartaContainer article button:hover {
+    background: #FF6707;
+}

@@ -1,0 +1,25 @@
+.lateralContainer {
+    width: 80%;
+    height: 80%;
+    background-color: #0000009c;
+    border-radius: 20%;
+    margin: auto;
+    margin-top: 11%;
+}
+.lateralContainer h1 {
+    font-size: 100px;
+    font-family: 'Creepster', cursive;
+    text-align: center;
+    padding-top: 6%;
+}
+.lateralContainer h2,
+.lateralContainer ul,
+.lateralContainer p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+.lateralContainer ul {
+    list-style: none;
+}
